@@ -78,7 +78,7 @@ if [[ "$LOC_CHOICE" == "1" ]]; then
             "name": "manip",
             "type": "IpManipulator",
             "settings": {
-                "protoswap": 136
+                "protoswap": 132
             },
             "next": "ipovsrc2"
         },
@@ -155,7 +155,7 @@ else
             "name": "manip",
             "type": "IpManipulator",
             "settings": {
-                "protoswap": 136
+                "protoswap": 132
             },
             "next": "ipovsrc2"
         },
@@ -221,7 +221,7 @@ cat > "$INSTALL_DIR/core.json" <<EOF
   },
   "dns": {},
   "misc": {
-    "workers": 1,
+    "workers": 4,
     "ram-profile": "client",
     "libs-path": "libs/"
   },
